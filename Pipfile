@@ -1,0 +1,22 @@
+[packages]
+django = "*"
+djangorestframework = "*"
+gunicorn = "*"
+prettyconf = "*"
+psycopg2 = "*"
+whitenoise = "*"
+
+[dev-packages]
+black = "==19.3b0" # pinned because pre-release is global to pipfiles
+ipython = "*"
+model_mommy = "*"
+pre-commit = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-deadfixtures = "*"
+pytest-django = "*"
+pytz = "*"
+
+[requires]
+python_full_version = "3.7.3"
+
