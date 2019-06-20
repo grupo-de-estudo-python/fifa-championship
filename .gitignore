@@ -67,3 +67,5 @@ target/
 
 # pytest
 .pytest_cache
+
+*.sqlite3
